@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 20vh;
+    background-color: rgb(141, 54, 134);
+    display: flex;
+    align-items: center;
+    margin-bottom: rem;
+}
+
+nav{
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li{
+    color: rgb(230, 224, 224);
+    font-size: 3rem;
+    list-style: none;
+}
+
+section{
+    display: flex ;
+    justify-content: space-evenly;
+}
+
+div{
+    width: 20vw ;
+    height:  60vh;
+    /*border: solid blue;*/
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center ;
+    
+}
+
+img{
+    height: 35vh;
+   
+}
+
+
+.fem{
+    width: 19.5vw;
+}
+.mas{
+    width: 15vw;
+}
+.inf{
+    width: 15vw;
+}
+.cal{
+    width: 15vw;
+} 
+
+h2, button, form{
+    margin-top: 1rem;
+    font-weight: ;
+}
+footer{
+    margin-top: rem;
+    background-color: rgb(225, 222, 228) ;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer form label{
+}
+h2{
+    font-weight: bold;
+}
+footer form input{
+    width: 15vw;
+    height: 3vh;
+}
+footer form button{
+    width: 7vw;
+    height: 3vh;
+    font-size: 1rem;
+}
+p, footer form{
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+.end{
+    margin-left: 2rem;
+}
+
+
+
+
+
+
+    
+    
+    
+   
